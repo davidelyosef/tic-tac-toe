@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+.squares-wrapper {
+  display: inline-grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 0px;
+}
+
+button {
+  display: block;
+  margin-inline: auto;
+  margin-bottom: 24px;
+  background-color: #1a1a1a;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #1a1a1a;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: white;
+    color: #1a1a1a;
+  }
+}
+
+app-square {
+  border: 1px gray solid;
+  height: 200px;
+}
